@@ -63,7 +63,7 @@ body{
 }
 
 .feature-head{
-	width: min(100% - 1.875rem * 2 , 33.75rem);
+	width: min(calc(100% - 1.875rem * 2) , 33.75rem);
 	margin: 0 auto;
 	text-align: center;
 }
@@ -92,7 +92,7 @@ body{
 }
 
 .feature-items{
-	width: min(100% - 1.875rem * 2 , 69.625rem);
+	width: min(calc(100% - 1.875rem * 2) , 69.625rem);
 	margin: 3.5rem auto;
 	display: grid;
 	justify-items: center;
